@@ -1,0 +1,13 @@
+BUBBLE SORT
+In the worst case bubble sort takes O(n^2) Time Complexity.
+Outer Loop runs for O(n-1) Times and Inner Loop runs for O(n-i) times.
+for(int i=0;i<n;i++){
+for(int j=0;j<n-i;j++){
+if(arr[j]>arr[j+1]){
+temp = arr[j];
+arr[j] = arr[j+1];
+arr[j+1] = temp;
+}
+
+}
+}
